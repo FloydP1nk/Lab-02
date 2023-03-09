@@ -1,5 +1,8 @@
 #include "iostream"
+#include "string"
 using namespace std;
 int main() {
-    cout << "hello world" << endl;
+    string userName;
+    cin >> userName;
+    cout << "hello world from " << userName << endl;
 }
