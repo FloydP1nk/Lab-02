@@ -1,7 +1,7 @@
 #include "iostream"
 #include "string"
 int main() {
-    std::string userName; // user name
-    std::cin >> userName; // input
-    std::cout << "hello world from " << userName << std::endl; // output
+    std::string userName; // имя пользователя
+    std::cin >> userName; // ввод
+    std::cout << "hello world from " << userName << std::endl; // вывод
 }
